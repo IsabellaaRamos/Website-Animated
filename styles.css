@@ -1,7 +1,7 @@
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     outline: none;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,4 +24,75 @@ body {
     right: 0;
     opacity: 0.6;
     
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(8px);
+}
+
+.section-wrap {
+    background-color: rgb(50, 34, 58);
+    width: 75%;
+    height: 75vh;
+    padding: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255, 0.2);
+}
+
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+
+}
+
+.head-logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+span {
+    color: darkslateblue;
+}
+
+.nav-item {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-item::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    box-shadow: 0 0 5px white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.3s;
+}
+
+.nav-item:hover::before {
+    transform: scaleX(1);
+}
+
+.active {
+    color: darkorchid;
+    font-weight: bold;
+}
+
+.active::before {
+    background-color: blueviolet;
+    box-shadow: 0 0 5px white;
 }
