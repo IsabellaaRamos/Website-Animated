@@ -13,6 +13,7 @@ body {
 }
 
 #back {
+
     background-image: url(assest/img2-fundo.jpg);
     height: 100vh;
     width: 100%;
@@ -25,6 +26,7 @@ body {
     opacity: 0.6;
     
 }
+
 section {
     display: flex;
     justify-content: center;
@@ -95,4 +97,44 @@ span {
 .active::before {
     background-color: blueviolet;
     box-shadow: 0 0 5px white;
+}
+
+.hd-cta button {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(94, 65, 124);
+    letter-spacing: 1px;
+    padding: 10px 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.hd-ct-1 {
+    background-color: transparent;
+}
+
+.hd-cta button:hover {
+    background-color: blueviolet;
+}
+
+/*.hr-content*/
+
+.hr-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.ct-right img {
+    width: 50%;
+   
+
+}
+
+.ct-right,
+.ct-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
