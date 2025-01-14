@@ -317,7 +317,7 @@
   
   .ds-card {
     padding: 25px;
-    border: 1px solid #f6f2e9;
+    border: 1px solid #a5581a;
     border-radius: 5px;
     position: relative;
     transition: 0.3s;
@@ -325,7 +325,7 @@
   }
   .ds-card:hover {
     background-color: #33333325;
-    box-shadow: 0 0 25px #f6f2e9;
+    box-shadow: 0 0 25px #99500b;
   }
   
   .ds-crd-title {
@@ -517,3 +517,33 @@
     margin: 50px auto;
     height: auto;
   }
+
+  
+
+  .line-container {
+    position: relative;
+    width: 100%;
+    height: 3px;
+    background: #9e6510;
+    overflow: hidden;
+    border-radius: 60%;
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgb(124, 66, 18), rgb(83, 72, 10));
+    animation: move-line 3s linear infinite;
+}
+
+@keyframes move-line {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 100%;
+    }
+}
