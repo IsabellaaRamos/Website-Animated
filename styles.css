@@ -138,3 +138,17 @@ button.hd-ct-1 {
     flex-direction: column;
     justify-content: center;
 }
+
+.headline {
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.hr-descripition{
+    font-size: 1rem;
+    line-height: 1.6;
+    color: aliceblue;
+    margin-bottom: 50px;
+}
