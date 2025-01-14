@@ -161,4 +161,9 @@ button.hd-ct-1 {
 #location option {
     background-color: blue;
     font-size: 1rem;
+    background-color: rgb(203, 78, 132);
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 25px;
 }
