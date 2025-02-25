@@ -192,8 +192,28 @@
     white-space: wrap;
     overflow: hidden;
     display: block;
+    margin-right:0;
+    color: #f6f2e9;
+    display: flex;
+    gap: 0;
   }
-   
+  #text{
+    color:#d3cfc6;
+    margin-right: 0;
+  }
+  #cursor {
+    display: inline-block;
+    margin-left: 0px;
+    color:rgb(255, 255, 255);
+    animation: blink 0.8s infinite;
+    box-shadow: #ffffff 1px 5px 10px;
+    z-index: 999
+  }
+  @keyframes blink {
+    0% { opacity: 1; }
+    /* 50% { opacity: 0; } */
+    100% { opacity: 0; }
+  }
   
 
 
