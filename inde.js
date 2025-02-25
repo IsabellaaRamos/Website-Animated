@@ -10,7 +10,7 @@
  const pauseBeforeTyping = 500;    // Pausa antes de iniciar a digitação novamente
 
  function typeWriter () {
-   const element = document.getElementById("typewriter-text");
+   const element = document.getElementById("typeWriter-text");
    
    if (!isDeleting) {
      // Digita letra por letra

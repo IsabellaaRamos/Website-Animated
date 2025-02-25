@@ -179,6 +179,10 @@
     line-height: 1.0;
     margin-bottom: 20px;
     font-size: 60px;
+    position: absolute;
+    top: 10%;
+    white-space: wrap;
+  
    
   }
   
