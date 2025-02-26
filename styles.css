@@ -365,6 +365,26 @@
     text-transform: uppercase;
     font-weight: 800;
   }
+
+  .section-title span {
+    color: #fd6537;
+    animation: pulsar 1.5s infinite;
+  }
+
+  @keyframes pulsar {
+    0% {
+      text-shadow: 0 0 10px #bac4cb;
+    }
+    50% {
+      text-shadow: 0 0 25px #d1d8dd;
+    }
+    100% {
+      text-shadow: 0 0 10px #adb4b9;
+    }
+  }
+
+
+  
   
   .section-head {
     display: flex;
