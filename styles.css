@@ -383,8 +383,6 @@
     }
   }
 
-
-  
   
   .section-head {
     display: flex;
@@ -410,11 +408,13 @@
     gap: 80px;
   }
   
+  
   .ds-card img {
     width: 100%;
     height: 250px;
     border-radius: 3px;
     margin-bottom: 20px;
+    object-fit: cover;
   }
   
   .ds-card {
@@ -424,10 +424,14 @@
     position: relative;
     transition: 0.3s;
     margin-bottom: 50px;
+    box-shadow: 0 4px 8px rgba(172, 74, 4, 0.627);
+    transition: transform 0.3s;
+    perspective: 1000px;
   }
   .ds-card:hover {
-    background-color:rgba(59, 58, 58, 0.85);
+    background-color:rgba(81, 41, 3, 0.426);
     box-shadow: 0 0 25px #99500b;
+    transform: rotateY(10deg) rotateX(10deg);
   }
   
   .ds-crd-title {
