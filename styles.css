@@ -415,6 +415,9 @@
     border-radius: 3px;
     margin-bottom: 20px;
     object-fit: cover;
+    display: grid;
+    max-width: 500px;
+    min-width: 300px;
   }
   
   .ds-card {
@@ -656,7 +659,7 @@
     }
 }
 
-/* .atom {
+ .atom {
   top: 20%;
   left: 80%;
 	 position: relative; 
@@ -676,7 +679,7 @@
 	box-shadow: 0 0 20px orange, 0 0 50px orange;
 }
 
-/* .orbit {
+ .orbit {
 	position: absolute; 
 	top: 20%; 
 	left: 66%; 
@@ -685,26 +688,27 @@
 	border: 1px dashed rgba(255, 255, 255, 0.3);
 	transform-style: preserve-3d;
 	animation: rotate 3s linear infinite;
-} */
+} 
 
- /* .orbit1 {
-	width: 300px; /
+  .orbit1 {
+	width: 300px; 
 	transform: translate(-50%, -50%) rotateX(45deg); 
+  }
 
-/* .orbit2 {
+ .orbit2 {
 	width: 300px;
 	height: 120px;
 	transform: translate(-50%, -50%) rotateX(-45deg);
 	animation-duration: 5s;
-} */ 
-/* 
+} 
+
 .orbit3 {
 	width: 300px;
 	height: 120px;
 	transform: translate(-50%, -50%) rotateY(90deg);
 	animation-duration: 10s;
-} */
-/* 
+} 
+
 .electron {
 	width: 15px;
 	height: 15px;
@@ -715,8 +719,8 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	box-shadow: 0 0 10px cyan, 0 0 30px cyan;
-} */
-/* .electron1 {
+} 
+ .electron1 {
 	background: rgba(8, 115, 192, 0.64);
 }
 .electron2 {
@@ -734,37 +738,7 @@
 		transform: rotate(360deg);
 	}
 } 
-*/ 
 
-#panel {
-  position: relative;
-}
 
-.book {
-  position: relative;
-  width: 300px;
-  height: 400px;
-  background: #3e4c59;
-  border-radius: 10px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-}
 
-.cover {
-  position: absolute;
-  top: 10px;
-  left: 20px;
-  right: 20px;
-  bottom: 10px;
-  background: linear-gradient(135deg, #ffffff, #c8d6e5);
-  border-radius: 5px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-}
-
-#magic-dust {
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-}
 
