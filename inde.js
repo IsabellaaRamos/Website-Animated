@@ -1,4 +1,4 @@
-const text = "Este é um exemplo de texto digitando e apagando sozinho!";
+const text = "Welcome to the Library!";
     let index = 0;
     let isDeleting = false;
     const typingSpeed = 150;      // Velocidade da digitação
